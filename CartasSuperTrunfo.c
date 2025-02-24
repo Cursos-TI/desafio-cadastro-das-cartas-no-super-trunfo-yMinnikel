@@ -18,10 +18,10 @@ int main() {
 
     //monta a primeira carta
     printf("----------MONTE A PRIMEIRA CARTA----------\n");
-    printf("Informe a letra que representa o estado: ");
+    printf("Informe a letra que representa o estado (A-H): ");
     scanf("%c", &estado1); //armazena a letra do estado
 
-    printf("\nInforme o código da carta: ");
+    printf("\nInforme o código da carta (Letra + 01-04, ex. A02, B01): ");
     scanf("%s", &codigo1); //armazena o código da carta
 
     printf("\nInforme o nome da cidade: ");
