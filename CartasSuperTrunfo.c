@@ -19,7 +19,7 @@ int main(){
     scanf(" %c", &estado1); //armazena a letra do estado
 
     printf("Informe o código da carta: ");
-    scanf("%s", &codigo1); //armazena o código da carta
+    scanf(" %s", &codigo1); //armazena o código da carta
 
     printf("Informe o nome da cidade: ");
     scanf("%s", &cidade1); //armazena o nome da cidade
